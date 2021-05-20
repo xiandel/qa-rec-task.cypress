@@ -1,7 +1,7 @@
 # Carer API - Technical Testing Task
 
 ## Scenario
-There is an API which says based on a certain date whether it is a working day for the carer or not.   
+There is an API which returns based on a date whether it is a working day for the carer or not.   
 For Example: The Carer works Monday to Friday. So a date which falls on a Saturday would return that it is not a working day.
 
 ## Task 1
@@ -9,6 +9,7 @@ We are going to push this API to production for the first time. In order to ensu
 1. Add a TEST-PLAN.md explaining your test approach for this task, including different levels & types of test
 
 ## Task 2
+Using [TestServer](https://docs.microsoft.com/en-us/dotnet/api/microsoft.aspnetcore.testhost.testserver) complete the tasks below. Microsoft docs explaining the [setup](https://docs.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-5.0#aspnet-core-integration-tests)
 1. Fix the failing test
 1. Add a test for a negative scenario
 1. Refactor anything you would improve

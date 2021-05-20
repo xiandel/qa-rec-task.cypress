@@ -1,7 +1,7 @@
 # Carer Web - Technical Testing Task
 
 ## Scenario
-Jobs are constantly being added to our website. We need to check that the search returns relevant results based on location. Using https://www.ceracare.co.uk/ (live website, don't bring it down please) verify that relevant results are being returned on the jobs page.
+Carer jobs are constantly being added to our website. Using https://www.ceracare.co.uk/ (live website, don't bring it down please) complete the tasks below.
 
 ## Task 1
 We are going to push changes to the search infrastructure, the functionality should stay the same. In order to ensure we have delivered quality, reliable and stable software what approach should we take?
@@ -13,7 +13,7 @@ We are going to push changes to the search infrastructure, the functionality sho
 1. Refactor anything you would improve
 
 ## Tips
-1. Some branches cover multiple locations
+1. Some carer branches cover multiple locations
 1. Make sure to comment and add details of your thought process and any assumptions you have made
 1. Don't spend too long on it (2 hours max)
 
