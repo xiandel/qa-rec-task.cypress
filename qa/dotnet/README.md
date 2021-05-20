@@ -19,7 +19,8 @@ We are going to push this API to production for the first time. In order to ensu
 
 ## Setup
 
-Resource used to create project [Microsoft Docs](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-5.0&tabs=visual-studio-code)
+Resource used to create project [Microsoft Docs](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-5.0&tabs=visual-studio-code)   
+dotnet version (`5.0.202`)
 
 1. `dotnet restore`
 1. `cd CarerApi`
