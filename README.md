@@ -23,3 +23,9 @@ npm version (`6.14.12`)
 
 1. `npm install`
 1. `npm test`
+
+## On Completion
+- Fork and push your changes, then notify the hiring manager   
+or
+- Clone then zip it up and email to hiring manager
+(please do not create a pull request or push to main)
