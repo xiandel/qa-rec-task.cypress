@@ -5,13 +5,16 @@ context('Jobs Search', () => {
       cy.visit('/')
     })
   
+    // Existing and non-existing location
+    // wait for results
     it('verify search results', () => {
-      cy.get("a[href$='/jobs/care/']").first().click()
-      cy.get('h2').should('have.text', "We're Hiring!")
-      cy.get('#searchLocation').type('Manchester')
-      cy.get('[type="submit"]').click()
-      cy.get('.results').within(() => {
-          cy.get('div').first().should('have.text','Manchester')
+      cy.get('#onetrust-accept-btn-handler').click()
+      cy.get('.header_content__LmDsk > .button_base__KzM17').click()
+      cy.get('h1').should('have.text', "Find a Care Assistant job")
+      cy.wait(3000);
+      cy.get('.location-search-input').focus().type('Trafford', { force: true })
+      cy.get('.locationSearchInput_dropdown__KG52s').within(() => {
+          cy.contains('Manchester')
       })
     })
 
